@@ -29,10 +29,11 @@ function Contact() {
 
   const onSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    const form = e.currentTarget;
     setSending(true);
     setTimeout(() => {
       setSending(false);
-      e.currentTarget?.reset?.();
+      form.reset();
       toast.success("Thank you — we'll be in touch within one business day.");
     }, 500);
   };
