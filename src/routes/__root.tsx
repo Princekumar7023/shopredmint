@@ -78,15 +78,21 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Redmint — TCM Wellness Sanctuary & Botanical Skincare" },
+      { title: "Redmint — Ancient Wisdom, Modern Wellness | San Francisco" },
       {
         name: "description",
         content:
-          "Redmint is a San Francisco sanctuary for Traditional Chinese Medicine, modern wellness therapies, botanical skincare, and herbal formulation.",
+          "A San Francisco sanctuary where Traditional Chinese Medicine meets modern wellness. Acupuncture, massage, facials, light therapy, botanical skincare and herbal formulation.",
       },
       { name: "author", content: "Redmint" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Redmint — Ancient Wisdom, Modern Wellness | San Francisco" },
+      { name: "twitter:title", content: "Redmint — Ancient Wisdom, Modern Wellness | San Francisco" },
+      { property: "og:description", content: "A San Francisco sanctuary where Traditional Chinese Medicine meets modern wellness. Acupuncture, massage, facials, light therapy, botanical skincare and herbal formulation." },
+      { name: "twitter:description", content: "A San Francisco sanctuary where Traditional Chinese Medicine meets modern wellness. Acupuncture, massage, facials, light therapy, botanical skincare and herbal formulation." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/17ab6909-e460-4a10-88c5-2d267b222323" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/17ab6909-e460-4a10-88c5-2d267b222323" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
@@ -96,7 +102,6 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         rel: "stylesheet",
         href: "https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@200..700&display=swap",
       },
-      { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
     ],
   }),
   shellComponent: RootShell,

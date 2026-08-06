@@ -18,11 +18,11 @@ export const Route = createFileRoute("/")({
         content:
           "A San Francisco sanctuary where Traditional Chinese Medicine meets modern wellness. Acupuncture, massage, facials, light therapy, botanical skincare and herbal formulation.",
       },
-      { property: "og:title", content: "Redmint — Ancient Wisdom, Modern Wellness" },
+      { property: "og:title", content: "Redmint — Ancient Wisdom, Modern Wellness | San Francisco" },
       {
         property: "og:description",
         content:
-          "TCM wellness sanctuary, botanical skincare and herbal bar in San Francisco. Open daily 9am – 9pm.",
+          "A San Francisco sanctuary where Traditional Chinese Medicine meets modern wellness. Acupuncture, massage, facials, light therapy, botanical skincare and herbal formulation.",
       },
     ],
   }),
